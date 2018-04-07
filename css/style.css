@@ -16,6 +16,12 @@ html {
     line-height: 1.4;
 }
 
+/*html {
+   fill: #FFF;
+   stroke: #222;
+   stroke-width: .25px;
+}*/
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -97,10 +103,12 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
- .County {
-    fill: #FFF;
-    stroke: #222;
-    stroke-width: .25px;
+
+
+.County {
+   fill: #FFF;
+   stroke: #222;
+   stroke-width: .25px;
 }
 
 .gratLines {
@@ -171,6 +179,25 @@ textarea {
 
 option {
     font-weight: normal;
+}
+/* Css for the info Label*/
+
+.infolabel {
+    position: absolute;
+    height: 50px;
+    min-width: 100px;
+    color: #fff;
+    background-color: #000;
+    border: solid thin #fff;
+    padding: 5px 10px;
+    top: -75px;
+}
+
+.infolabel h1 {
+    margin: 0 20px 0 0;
+    padding: 0;
+    display: inline-block;
+    line-height: 1em;
 }
 
 
