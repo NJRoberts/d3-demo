@@ -14,7 +14,6 @@ html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
-    /*background-color: rgba(247,192,45,.5);*/
     background-color: #EB7B2D;
 }
 
@@ -101,8 +100,6 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-
-
 .County {
    fill: #FFF;
    font-family: 'Acme', sans-serif;
@@ -110,19 +107,15 @@ textarea {
    stroke-width: .25px;
 }
 
-
-
 .map {
     /*border: medium solid #999;*/
     margin: 80px 0 0 20px;
-
 }
 
 .chart {
     float: right;
     margin: 30px 70px 0 0;
 }
-
 
 .chartTitle {
     position: absolute;
@@ -158,10 +151,9 @@ textarea {
     fill: rgba(400,400,400);
 }
 
-
 .dropdown {
     position: absolute;
-    top: 320px;
+    top: 290px;
     /*left: 640px; /*keeps it to the right of the map frame*/
     left:40px;
     z-index: 10;
@@ -176,6 +168,7 @@ textarea {
 option {
     font-weight: normal;
 }
+
 /* Css for the info Label*/
 
 .infolabel h1 {
@@ -185,7 +178,6 @@ option {
     line-height: 1em;
 
 }
-
 
 .infolabel {
     font-family: 'Acme', sans-serif;
@@ -199,7 +191,6 @@ option {
     top: -75px;
 }
 
-
 #mapTitle{
   font-weight: 500;
   font-size: 30px;
@@ -207,7 +198,6 @@ option {
   font-family: 'Acme', sans-serif;
 
 }
-
 
 #about{
   font-size: 25px;

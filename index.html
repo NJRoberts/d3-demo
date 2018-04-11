@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width">
-		<title>CA Population with d3</title>
+		<title>d3/CA Population</title>
 		<script type="text/javascript" src="lib/d3.js"></script>
 		<script type="text/javascript" src="lib/d3-queue.js"></script>
 		<script type="text/javascript" src="lib/topojson.js"></script>
@@ -22,16 +22,17 @@
 		</div>
 
 		<div id="about">
-				<p> These visualizations use population counts from the U.S. decennial censuses.<br>
-					30 year intervals were selected for display.<br>
-					Please note San Francisco (as a city and county) dwarf the other data and have been displayed on a separate scale. </p>
+				<p> These visualizations use population counts from the U.S. decennial censuses.
+					30 year intervals are displayed.<br>
+					Please note San Francisco dwarfs the other counties and has been displayed on a separate scale. </p>
 		</div>
 
 		<div id="mapContainer"></div>
 
 		<div id= "sources">
 		<footer>
-			Sources: California State Data Center, US Census Bureau. N. Roberts - 2018.
+			Map Classification: Ckmeans clustering algorithm using d3.
+			| Sources: California State Data Center, US Census Bureau. N. Roberts - 2018.
 		</footer>
 		</div>
 
