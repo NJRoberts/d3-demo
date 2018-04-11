@@ -14,13 +14,11 @@ html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
+    /*background-color: rgba(247,192,45,.5);*/
+    background-color: #EB7B2D;
 }
 
-/*html {
-   fill: #FFF;
-   stroke: #222;
-   stroke-width: .25px;
-}*/
+
 
 /*
  * Remove text-shadow in selection highlight:
@@ -107,69 +105,67 @@ textarea {
 
 .County {
    fill: #FFF;
+   font-family: 'Acme', sans-serif;
    stroke: #222;
    stroke-width: .25px;
 }
 
-.gratLines {
-    fill: none;
-    stroke: #999;
-    stroke-width: 1px;
-}
 
-.gratBackground {
-    fill: #D5E3FF;
-}
 
 .map {
-    border: medium solid #999;
-    margin: 10px 0 0 20px;
+    /*border: medium solid #999;*/
+    margin: 80px 0 0 20px;
+
 }
 
 .chart {
     float: right;
-    margin: 7px 20px 0 0;
+    margin: 30px 70px 0 0;
 }
 
 
 .chartTitle {
-    font-family: sans-serif;
-    font-size: 1.5em;
+    position: absolute;
+    font-family: 'Acme', sans-serif;
+    font-size: 1.8em;
     font-weight: bold;
+    fill: rgba(400,400,400);
+    z-index: 10;
 }
 
 .chartBackground {
-    fill: rgba(128,128,128,.2);
+    fill: rgba(247,192,45,.2);
 }
 
 .chartFrame {
     fill: none;
-    stroke: #999;
-    stroke-width: 3px;
+    stroke: rgba(400,400,400);
+    stroke-width: 2px;
     shape-rendering: crispEdges;
 }
 
 .axis path,
 .axis line {
     fill: none;
-    stroke: #999;
+    stroke: rgba(400,400,400);
     stroke-width: 1px;
     shape-rendering: crispEdges;
 }
 
 .axis text {
     font-family: sans-serif;
-    font-size: 0.8em;
-    fill: #999;
+    font-size: 1em;
+    fill: rgba(400,400,400);
 }
 
 
 .dropdown {
     position: absolute;
-    top: 30px;
-    left: 40px;
+    top: 320px;
+    /*left: 640px; /*keeps it to the right of the map frame*/
+    left:40px;
     z-index: 10;
-    font-family: sans-serif;
+    font-family: 'Acme', sans-serif;
     font-size: 1em;
     font-weight: bold;
     padding: 2px;
@@ -182,51 +178,49 @@ option {
 }
 /* Css for the info Label*/
 
-.infolabel {
-    position: absolute;
-    height: 50px;
-    min-width: 100px;
-    color: #fff;
-    background-color: #000;
-    border: solid thin #fff;
-    padding: 5px 10px;
-    top: -75px;
-}
-
 .infolabel h1 {
     margin: 0 20px 0 0;
     padding: 0;
     display: inline-block;
     line-height: 1em;
+
 }
 
 
-
-  /*
-fill: #FFF;
-   .axis path,
-   .axis line {
-       fill: none;
-       stroke: black;
-       stroke-width: 1px;
-       shape-rendering: crispEdges;
-   }
-   .title {
-       font-family: sans-serif;
-       font-size: 1.5em;
-       font-weight: bold;
-   }
-   .axis text {
-       font-family: sans-serif;
-       font-size: 0.9em;
-   } */
+.infolabel {
+    font-family: 'Acme', sans-serif;
+    position: absolute;
+    height: 50px;
+    min-width: 100px;
+    color: #fff;
+    background-color: rgba(0,0,0,.8);
+    border: solid thin #fff;
+    padding: 5px 10px;
+    top: -75px;
+}
 
 
+#mapTitle{
+  font-weight: 500;
+  font-size: 30px;
+  color: rgba(400,400,400);
+  font-family: 'Acme', sans-serif;
+
+}
 
 
+#about{
+  font-size: 25px;
+  color: white;
 
+}
 
+#sources{
+  padding-top: 5px;
+  font-size: 16px;
+  color: white;
 
+}
 
 
 

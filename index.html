@@ -3,12 +3,13 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width">
-		<title>D3 Lab</title>
+		<title>CA Population with d3</title>
 		<script type="text/javascript" src="lib/d3.js"></script>
 		<script type="text/javascript" src="lib/d3-queue.js"></script>
 		<script type="text/javascript" src="lib/topojson.js"></script>
 		<script type="text/javascript" src="lib/simple-statistics.min.js"></script>
 		<!--put your external stylesheet links here-->
+		<link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
 		<link rel="stylesheet" href="css/style.css">
 		<!--[if IE<9]>
 			<link rel="stylesheet" href="css/style.ie.css">
@@ -16,7 +17,23 @@
 	</head>
 
 	<body>
+		<div id="mapTitle">
+			<h1>Historical Population Density in California 1860-2010</h1>
+		</div>
 
+		<div id="about">
+				<p> These visualizations use population counts from the U.S. decennial censuses.<br>
+					30 year intervals were selected for display.<br>
+					Please note San Francisco (as a city and county) dwarf the other data and have been displayed on a separate scale. </p>
+		</div>
+
+		<div id="mapContainer"></div>
+
+		<div id= "sources">
+		<footer>
+			Sources: California State Data Center, US Census Bureau. N. Roberts - 2018.
+		</footer>
+		</div>
 
 
 
